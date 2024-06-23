@@ -41,7 +41,6 @@ const FlatDetails = () => {
 
   return (
     <div className="flex flex-row gap-4">
-      {/* <Filter onFilter={handleFilter} /> */}
       <div className="w-[35%]">
         {" "}
         <Filter onFilter={handleFilter} />{" "}
